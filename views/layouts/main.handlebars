@@ -12,16 +12,16 @@
 
 <body>
   <div class="flex-column justify-space-around">
-    <header class="display-flex justify-space-between align-center p-2">
+    <header class="display-flex justify-space-between align-center pon">
       <h1>
-        <a href="/" class="techBlog">Tech-Bloggr</a>
+        <a href="/" class="blogTalk">letsblogaboutit</a>
       </h1>
       <nav>
         {{#if logged_in}}
-        <a href="/profile" class="navClass">Dashboard</a> 
-        <button class="no-button" id="logout">Logout</button>
+        <a href="/profile" class="navClass">Navigation Center</a> 
+        <button class="exitBtn" id="logout">Exit</button>
         {{else}}
-        <a href="/login" class="navClass">Login</a>
+        <a href="/login" class="navClass">Enter</a>
         {{/if}}
       </nav>
     </header>

@@ -1,5 +1,5 @@
 {
-  "name": "MVC-Tech-Blog",
+  "name": "letsblogaboutit",
   "version": "1.0.0",
   "description": "",
   "engines": {
@@ -32,10 +32,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Lmickk2/Week-14-Challenge.git"
+    "url": "git+https://github.com/codingjarrett/letsblogaboutit"
   },
   "bugs": {
-    "url": "https://github.com/Lmickk2/Week-14-Challenge/issues"
+    "url": "https://github.com/codingjarrett/letsblogaboutit/issues"
   },
-  "homepage": "https://github.com/Lmickk2/Week-14-Challenge#readme"
+  "homepage": "https://github.com/codingjarrett/letsblogaboutit"
 }

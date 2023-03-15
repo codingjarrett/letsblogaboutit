@@ -1,13 +1,12 @@
 html, body {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
 
 header, .post:not(:last-child) {
   border-bottom: 1px solid #ccc;
 }
 
-.no-button {
+.exitBtn {
   background: none;
   border: none;
   padding: 10px;
@@ -17,29 +16,29 @@ header, .post:not(:last-child) {
   font-size: 100%;
 }
 
-.no-button:hover {
+.exitBtn:hover {
   color: #065b83;
   text-decoration: underline;
 }
 
-.featured {
+.spotlight {
   text-align: center;
   font-size: 38px;
   padding-bottom: 12px;
 }
 
-.p-2 {
-  background-color: black;
+.pon {
+  background-color: #5f5d5d; /* dark grey */
 }
 
-.techBlog {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: white;
+.blogTalk {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #d5c4a1; /* light orange */
   text-align: center !important;
 }
 
 .navClass {
-  color: white;
+  color: #d5c4a1; /* light orange */
   text-align: center;
 }
 
@@ -52,6 +51,7 @@ header, .post:not(:last-child) {
   border: 1px solid black;
   width: 100%;
   margin-top: 14px;
+  background-color: #402d54; /* dark purple */
 }
 
 .postedBy {
@@ -59,31 +59,33 @@ header, .post:not(:last-child) {
   border-width: 2%;
 }
 
-
 .postTitle {
   text-align: center;
   padding-bottom: 5px;
   margin: auto;
+  color: #f05e23; /* orange */
 }
 
-.new-comment-form {
+.addComment {
   text-align: center;
   padding-top: 20px;
 }
 
-.post-desc {
+.describePost {
   text-align: center;
 }
 
-.postCreate {
+.createPost {
   text-align: center;
 }
 
-.comment-list {
+.listComment {
   padding-top: 25px;
   text-align: center;
 }
 
-.commentText {
+.beefComm {
   border: 1px solid black;
+  background-color: #5f5d5d; /* dark grey */
+  color: #d5c4a1; /* light orange */
 }

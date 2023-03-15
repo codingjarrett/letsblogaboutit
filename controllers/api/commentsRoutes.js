@@ -27,7 +27,7 @@ router.get('/:id',async (req, res) => {
     });
 
     if (!commentData) {
-        res.status(404).json({ message: 'No post found with that id.' });
+        res.status(404).json({ message: 'that post does not match the id, give it another try.' });
         return;
     }
 
