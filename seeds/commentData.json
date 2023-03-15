@@ -1,0 +1,27 @@
+[
+	{
+	  "content": "very cool!",
+	  "user_id": 1,
+	  "post_id": 1
+	},
+	{
+	  "content": "interesting!",
+	  "user_id": 1,
+	  "post_id": 2
+	},
+	{
+	  "content": "great read!",
+	  "user_id": 3,
+	  "post_id": 2
+	},
+	{
+	  "content": "Thanks for the info!",
+	  "user_id": 2,
+	  "post_id": 3
+	},
+	{
+	  "content": "Awesome!",
+	  "user_id": 2,
+	  "post_id": 1
+	}
+  ]
