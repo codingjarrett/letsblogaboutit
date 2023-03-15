@@ -1,0 +1,32 @@
+
+<div class="post-content">
+	<div class="container postBoxCont">
+		<div class="row headerRow">
+			<div>
+				<h2 class="postTitle">{{name}}</h2>
+			</div>
+			<div>
+				<p class="postCreate">- Posted by {{user.username}} -</p>
+			</div>
+		</div>
+		<p class="post-desc">{{description}}</p>
+		</div>	
+</div>
+
+
+			<form class="new-comment-form" data-postid={{id}}>
+			<div class="text">
+				<textarea id='comment-desc'
+				placeholder="Enter a comment here..."
+				cols="30"
+				rows="2"></textarea>
+			</div>
+			<div class="btnComment">
+				<button class="submitComment" type="submit">Add Comment</button>
+			</div>
+		</form>
+
+{{> comment}}
+	
+
+<script src="./js/comment.js></script>

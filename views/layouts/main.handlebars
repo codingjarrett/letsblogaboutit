@@ -1,28 +1,41 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>{{title}}</title>
-    <link rel="stylesheet" href="/css/style.css">
-  </head>
-  <body>
-    <header>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tech Blog</title>
+  <link rel="stylesheet" href="/css/jass.css">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+
+<body>
+  <div class="flex-column justify-space-around">
+    <header class="display-flex justify-space-between align-center p-2">
+      <h1>
+        <a href="/" class="techBlog">Tech-Bloggr</a>
+      </h1>
       <nav>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/posts">Posts</a></li>
-          {{#if user}}
-            <li><a href="/logout">Logout</a></li>
-          {{else}}
-            <li><a href="/login">Login</a></li>
-            <li><a href="/signup">Sign up</a></li>
-          {{/if}}
-        </ul>
+        {{#if logged_in}}
+        <a href="/profile" class="navClass">Dashboard</a> 
+        <button class="no-button" id="logout">Logout</button>
+        {{else}}
+        <a href="/login" class="navClass">Login</a>
+        {{/if}}
       </nav>
     </header>
-    <main>
-      {{{body}}}
+    <main class="container container-fluid mt-5">
+      {{{ body }}}
     </main>
-    <script src="/js/script.js"></script>
-  </body>
+    <footer>
+      
+    </footer>
+  </div>
+
+  {{#if logged_in}}
+  <script src="/js/logout.js"></script>
+  {{/if}}
+</body>
+
 </html>
