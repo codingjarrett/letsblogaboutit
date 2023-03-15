@@ -2,7 +2,7 @@ const newFormHandler = async (event) => {
   event.preventDefault();
 
   const name = document.querySelector('#post-name').value.trim();
-  const description = document.querySelector('#post-desc').value.trim();
+  const description = document.querySelector('#describePost').value.trim();
 
   if (name && description) {
     const response = await fetch(`/api/posts`, {
@@ -31,7 +31,7 @@ const delButtonHandler = async (event) => {
     if (response.ok) {
       document.location.replace('/profile');
     } else {
-      alert('Failed to delete post');
+      alert('Could not delete post');
     }
   }
 };

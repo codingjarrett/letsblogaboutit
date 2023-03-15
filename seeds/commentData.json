@@ -1,26 +1,26 @@
 [
 	{
-	  "content": "very cool!",
+	  "content": "Good question!",
 	  "user_id": 1,
 	  "post_id": 1
 	},
 	{
-	  "content": "interesting!",
+	  "content": "That's interesting!",
 	  "user_id": 1,
 	  "post_id": 2
 	},
 	{
-	  "content": "great read!",
+	  "content": "The future will tell!",
 	  "user_id": 3,
 	  "post_id": 2
 	},
 	{
-	  "content": "Thanks for the info!",
+	  "content": "Let's discuss!",
 	  "user_id": 2,
 	  "post_id": 3
 	},
 	{
-	  "content": "Awesome!",
+	  "content": "Who Knows!",
 	  "user_id": 2,
 	  "post_id": 1
 	}
