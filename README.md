@@ -53,7 +53,7 @@ In addition to the core features outlined in the acceptance criteria, the app in
 - A one-piece theme: The posts deal with one piece topics.
 
 ## Credits
-This app was created by [Your Name] using the following technologies:
+This app was created by Jarrett Jennings using the following technologies:
 
 - Node.js
 - Express.js
