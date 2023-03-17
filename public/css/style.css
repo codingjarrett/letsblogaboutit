@@ -1,91 +1,28 @@
-html, body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-header, .post:not(:last-child) {
+header, .project:not(:last-child) {
   border-bottom: 1px solid #ccc;
 }
 
-.exitBtn {
+.no-button {
   background: none;
   border: none;
-  padding: 10px;
+  padding: 0;
   cursor: pointer;
-  color: #ffffff;
+  color: #1b89bc;
   text-decoration: none;
   font-size: 100%;
 }
 
-.exitBtn:hover {
+.no-button:hover {
   color: #065b83;
   text-decoration: underline;
 }
 
-.spotlight {
-  text-align: center;
-  font-size: 38px;
-  padding-bottom: 12px;
+.dollar-amount {
+  color: #056605;
+  font-weight: bold;
+  margin-left: -5px;
 }
 
-.pon {
-  background-color: #5f5d5d; /* dark grey */
-}
-
-.blogTalk {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #d5c4a1; /* light orange */
-  text-align: center !important;
-}
-
-.navClass {
-  color: #d5c4a1; /* light orange */
-  text-align: center;
-}
-
-.post-content {
-  border: 1px solid black;
-}
-
-.postBox {
-  padding: 15px;
-  border: 1px solid black;
-  width: 100%;
-  margin-top: 14px;
-  background-color: #402d54; /* dark purple */
-}
-
-.postedBy {
-  border-bottom: 0.5px solid black;
-  border-width: 2%;
-}
-
-.postTitle {
-  text-align: center;
-  padding-bottom: 5px;
-  margin: auto;
-  color: #f05e23; /* orange */
-}
-
-.addComment {
-  text-align: center;
-  padding-top: 20px;
-}
-
-.describePost {
-  text-align: center;
-}
-
-.createPost {
-  text-align: center;
-}
-
-.listComment {
-  padding-top: 25px;
-  text-align: center;
-}
-
-.beefComm {
-  border: 1px solid black;
-  background-color: #5f5d5d; /* dark grey */
-  color: #d5c4a1; /* light orange */
-}
+.hidden {
+  display: none;
+};

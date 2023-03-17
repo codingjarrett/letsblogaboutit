@@ -1,0 +1,28 @@
+<div class="text-center post" data-id="{{id}}">
+  <h2>{{title}}</h2>
+  <p>Created by {{user.username}} on {{format_date date_created}}</p>
+  <p>{{content}}</p>
+</div>
+
+{{#if comments}}
+{{#each comments as |comment|}}
+<div class="text-center comment" data-id="{{comment.id}}">
+  <h4>{{comment.commentText}}</h4>
+  <p>-{{comment.user.username}} on {{format_date comment.date_created}}</p>
+</div>
+{{/each}}
+{{/if}}
+
+{{#if logged_in}}
+<form class="form create-comment">
+  <div class="form-group">
+    <label for="comment">Comment</label>
+    <input class="form-input commentText" type="text" name="commentText" />
+  </div>
+  <div class="form-group">
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </div>
+</form>
+{{/if}}
+
+<script src="./js/blogPost.js"></script>
